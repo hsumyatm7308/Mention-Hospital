@@ -27,4 +27,30 @@ $(document).ready(function(){
     // end info section 
    });
 
-//    28FR 
+//  start premises section 
+$('#light-slider').lightSlider({
+    item:4,
+    speed: 600, //ms'
+        // auto: true,
+        loop: true,
+      slideMove:1
+}).play();
+// end premises section 
+
+// start pricing section 
+$(window).scroll(function(){
+    let getscroll = $(this).scrollTop();
+    console.log(getscroll);
+
+    if(getscroll >= 2450){
+        $(".cardones").addClass("movelefts")
+        $(".cardtwos").addClass("moverights")
+        $(".cardthrees").addClass("movebottoms")
+    }else{
+        $(".cardones").removeClass("movelefts")
+        $(".cardtwos").removeClass("moverights")
+        $(".cardthrees").removeClass("movebottoms")
+    }
+})
+
+// end pricing section 

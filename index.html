@@ -16,12 +16,17 @@
  <link href="./css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+    <!-- Start Progress  -->
+    <div id="progress">
+        <span id="progressvalues">0%</span>
+    </div>
+    <!-- End Progress  -->
 
  <!-- Start Header Section -->
  <header>
 
   <!-- Start Header Intro Section -->
-  <section class="headerintros visiblelgs">
+  <section class="headerintros visiblelgs" id="header">
    <div class="container infos">
     <table>
      <tr>
@@ -59,12 +64,12 @@
     <div id="mynav" class="navbar-collapse collapse">
      <ul class="navbar-nav ms-auto">
       <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+      <li class="nav-item"><a href="#feature" class="nav-link">Features</a></li>
+      <li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
       <li class="nav-item"><a href="#department" class="nav-link">Department</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Our TEam</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">Premises</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">FAQ</a></li>
+      <li class="nav-item"><a href="#adv" class="nav-link">Our TEam</a></li>
+      <li class="nav-item"><a href="#premises" class="nav-link">Premises</a></li>
+      <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
      </ul>
     </div>
    </div>
@@ -204,7 +209,8 @@
             </div>
 
             <div class="col-md-6 text-center mt-3">
-                <a href=""><i class="fas fa-play fa-3x"></i></a>
+                <a href=" " id="videos" data-bs-target="#videomodal" data-bs-toggle="modal" data-video="https://www.youtube.com/embed/C5qEOuh_7fg"><i class="fas fa-play fa-3x"></i>
+                </a>
                <h1>See What Do We Do</h1>
             </div>
         </div>
@@ -447,7 +453,146 @@
 
  </section>
  <!-- End Pricting Section  -->
+ <!-- Start Join Us Section  -->
+ <section class="py-5">
+    <div class="container">
+        <!-- start title  -->
+        <div class="row">
+            <div class="col-md-12 text-center ">
 
+                <h4 class="text-uppercase">Join Us Today</h4>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo doloribus, rem quam ullam iste und</p>
+            </div>
+        </div>
+        <!-- end title  -->
+        <div class="row">
+            <div class="col-md-4 col-sm-12 mb-3 customforms">
+                <h4 >Instrustor </h4>
+                <form action="" method="">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Your Name">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
+                            <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
+                            <textarea name="bio" id="bio" class="form-control" rows="5" placeholder="Your Bio"></textarea>
+                            <div class="d-grid mt-3">
+                                <button type="submit" class="btn btn-primary btn-lg rounded-0">Join Us Today</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-8 col-sm-12 ">
+                <div id="accordion">
+                    <h4>Why should I join Your team</h4>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ut corrupti, veniam dicta error, explicabo possimus ipsum, saepe nam amet fuga sint totam nisi fugiat maiores commodi eveniet doloribus? Laudantium.</p>
+                    </div>
+                    <h4>what would you gain on Your team</h4>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ut corrupti, veniam dicta error, explicabo possimus ipsum, saepe nam amet fuga sint totam nisi fugiat maiores commodi eveniet doloribus? Laudantium.</p>
+                    </div>
+
+                    <h4>Can I get Paid?</h4>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ut corrupti, veniam dicta error, explicabo possimus ipsum, saepe nam amet fuga sint totam nisi fugiat maiores commodi eveniet doloribus? Laudantium.</p>
+                    </div>
+
+                    <h4>How many dads I need to work?</h4>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ut corrupti, veniam dicta error, explicabo possimus ipsum, saepe nam amet fuga sint totam nisi fugiat maiores commodi eveniet doloribus? Laudantium.</p>
+                    </div>
+
+                    <h4> How Can I give support for students</h4>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ut corrupti, veniam dicta error, explicabo possimus ipsum, saepe nam amet fuga sint totam nisi fugiat maiores commodi eveniet doloribus? Laudantium.</p>
+                    </div>
+
+                    <h4>Menbaerships is free to join</h4>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ut corrupti, veniam dicta error, explicabo possimus ipsum, saepe nam amet fuga sint totam nisi fugiat maiores commodi eveniet doloribus? Laudantium.</p>
+                    </div>
+
+                    <h4>Where I need to Join the team?</h4>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ut corrupti, veniam dicta error, explicabo possimus ipsum, saepe nam amet fuga sint totam nisi fugiat maiores commodi eveniet doloribus? Laudantium.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ </section>
+<!-- End Join us Section  -->
+<!-- Start Footer Section  -->
+  <footer class="bg-dark px-5">
+      <div class="container-fluid">
+        <div class="row text-light py-4">
+            <div class="col-md-3 col-sm-6 mb-3">
+                <h5 class="mb-3"><img src="./assets/img/fav/favicon2.png" alt="" width="70px"> Mention Hospital</h5>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-phone"></i>+95952898008</li>
+                    <li><i class="fas fa-envelope"></i>adminmention@gmail.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i>60st,Mandalay,Myanmar</li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+                <h5 class="mb-3">Visit Us</h5>
+                <div class="socialicons"><a href="" target="_blank"><i class="fab fa-facebook"></i></a>
+                 <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+                <h5 class="mb-3">Support</h5>
+                <ul class="list-unstyled">
+                    <li><a href="" class=" text-uppercase footerlinks">Documantation</a></li>
+                    <li><a href="" class="text-uppercase footerlinks">Faqs</a></li>
+                    <li><a href="" class="text-uppercase footerlinks">Condition</a></li>
+                    <li><a href="" class="text-uppercase footerlinks">Get Codes</a></li>
+
+
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-3">
+                <h5 class="mb-3">Download Apps</h5>
+                <ul class="list-unstyled">
+                    <li><a href="" class=" nav-link">Documantation</a></li>
+                    <li><a href="" class=" nav-link">Google Play Store</a></li>
+                    <li><a href="" class=" nav-link">Apple Store</a></li>
+                    <li><a href="" class=" nav-link">Direct Linl</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center text-light border-top pt-4">
+            <p>&copy; <span id="getyear"></span> Copyright,Inc All rights reserved</p>
+        </div>
+      </div>
+
+  </footer>
+<!-- End Forder Section  -->
+
+<!-- Start Modal Area  -->
+<!-- start video modal -->
+<div id="videomodal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modak-body">
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                <iframe width="560" height="315"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end video modal  -->
+<!-- end modal area  -->
 
 
 <!-- bootstrap css1 js1 -->
@@ -465,3 +610,5 @@
 </html>
 
 <!-- d-sm-block is no appear on sm size  -->
+
+<!-- 5DONE  -->
